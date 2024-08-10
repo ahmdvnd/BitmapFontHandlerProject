@@ -1,3 +1,17 @@
+/*
+* Project: 	BitmapFontHandlerProject
+* File: 	FontHandler.cpp
+* Author: 	Ali Ahmadvand www.linkedin.com/in/ali-ahmadvand
+* Date: 2024
+*
+* Description:
+* a library for converting text with windows-1256 code page to Bitmap font.
+* License: MIT
+*
+* Acknowledgments:
+* this class is just a sample for learning and I hope it be usful.
+*/
+
 #define PIXEL_MODE	1
 //#include <svc.h>
 #include "FontHandler.h"
@@ -166,162 +180,162 @@ void	initial()
 
 
 
-	AVCharMap[(uchar)'Â'*4]=0xFE81;
+	AVCharMap[(uchar)'Ã‚'*4]=0xFE81;
 
-	AVCharMap[(uchar)'Ç'*4]=0xFE8D;
-	AVCharMap[(uchar)'Ç'*4+1]=0xFE8E;
-	AVCharMap[(uchar)'Ç'*4+2]=0xFE8E;
-	AVCharMap[(uchar)'Ç'*4+3]=0xFE8D;
+	AVCharMap[(uchar)'Ã‡'*4]=0xFE8D;
+	AVCharMap[(uchar)'Ã‡'*4+1]=0xFE8E;
+	AVCharMap[(uchar)'Ã‡'*4+2]=0xFE8E;
+	AVCharMap[(uchar)'Ã‡'*4+3]=0xFE8D;
 
-	AVCharMap[(uchar)'È'*4]=0xFE91;
-	AVCharMap[(uchar)'È'*4+1]=0xFE92;
-	AVCharMap[(uchar)'È'*4+2]=0xFE90;
-	AVCharMap[(uchar)'È'*4+3]=0xFE8F;
+	AVCharMap[(uchar)'Ãˆ'*4]=0xFE91;
+	AVCharMap[(uchar)'Ãˆ'*4+1]=0xFE92;
+	AVCharMap[(uchar)'Ãˆ'*4+2]=0xFE90;
+	AVCharMap[(uchar)'Ãˆ'*4+3]=0xFE8F;
 	
-	AVCharMap[(uchar)''*4]=  0xFB58;
-	AVCharMap[(uchar)''*4+1]=0xFB59;
-	AVCharMap[(uchar)''*4+2]=0xFB57;
-	AVCharMap[(uchar)''*4+3]=0xFB56;
+	AVCharMap[(uchar)'Â'*4]=  0xFB58;
+	AVCharMap[(uchar)'Â'*4+1]=0xFB59;
+	AVCharMap[(uchar)'Â'*4+2]=0xFB57;
+	AVCharMap[(uchar)'Â'*4+3]=0xFB56;
 	
-	AVCharMap[(uchar)'Ê'*4]=0xFE97;
-	AVCharMap[(uchar)'Ê'*4+1]=0xFE98;
-	AVCharMap[(uchar)'Ê'*4+2]=0xFE96;
-	AVCharMap[(uchar)'Ê'*4+3]=0xFE95;
+	AVCharMap[(uchar)'ÃŠ'*4]=0xFE97;
+	AVCharMap[(uchar)'ÃŠ'*4+1]=0xFE98;
+	AVCharMap[(uchar)'ÃŠ'*4+2]=0xFE96;
+	AVCharMap[(uchar)'ÃŠ'*4+3]=0xFE95;
 	
-	AVCharMap[(uchar)'Ë'*4]=0xFE9B;
-	AVCharMap[(uchar)'Ë'*4+1]=0xFE9C;
-	AVCharMap[(uchar)'Ë'*4+2]=0xFE9A;
-	AVCharMap[(uchar)'Ë'*4+3]=0xFE99;
+	AVCharMap[(uchar)'Ã‹'*4]=0xFE9B;
+	AVCharMap[(uchar)'Ã‹'*4+1]=0xFE9C;
+	AVCharMap[(uchar)'Ã‹'*4+2]=0xFE9A;
+	AVCharMap[(uchar)'Ã‹'*4+3]=0xFE99;
 
-	AVCharMap[(uchar)'Ì'*4]=0xFE9F;
-	AVCharMap[(uchar)'Ì'*4+1]=0xFEA0;
-	AVCharMap[(uchar)'Ì'*4+2]=0xFE9E;
-	AVCharMap[(uchar)'Ì'*4+3]=0xFE9D;
+	AVCharMap[(uchar)'ÃŒ'*4]=0xFE9F;
+	AVCharMap[(uchar)'ÃŒ'*4+1]=0xFEA0;
+	AVCharMap[(uchar)'ÃŒ'*4+2]=0xFE9E;
+	AVCharMap[(uchar)'ÃŒ'*4+3]=0xFE9D;
 	
-	AVCharMap[(uchar)''*4]=0xFB7C;
-	AVCharMap[(uchar)''*4+1]=0xFB7D;
-	AVCharMap[(uchar)''*4+2]=0xFB7B;
-	AVCharMap[(uchar)''*4+3]=0xFB7A;
+	AVCharMap[(uchar)'Â'*4]=0xFB7C;
+	AVCharMap[(uchar)'Â'*4+1]=0xFB7D;
+	AVCharMap[(uchar)'Â'*4+2]=0xFB7B;
+	AVCharMap[(uchar)'Â'*4+3]=0xFB7A;
 	
-	AVCharMap[(uchar)'Í'*4]=0xFEA3;
-	AVCharMap[(uchar)'Í'*4+1]=0xFEA4;
-	AVCharMap[(uchar)'Í'*4+2]=0xFEA2;
-	AVCharMap[(uchar)'Í'*4+3]=0xFEA1;
+	AVCharMap[(uchar)'Ã'*4]=0xFEA3;
+	AVCharMap[(uchar)'Ã'*4+1]=0xFEA4;
+	AVCharMap[(uchar)'Ã'*4+2]=0xFEA2;
+	AVCharMap[(uchar)'Ã'*4+3]=0xFEA1;
 	
-	AVCharMap[(uchar)'Î'*4]=0xFEA7;
-	AVCharMap[(uchar)'Î'*4+1]=0xFEA8;
-	AVCharMap[(uchar)'Î'*4+2]=0xFEA6;
-	AVCharMap[(uchar)'Î'*4+3]=0xFEA5;
+	AVCharMap[(uchar)'ÃŽ'*4]=0xFEA7;
+	AVCharMap[(uchar)'ÃŽ'*4+1]=0xFEA8;
+	AVCharMap[(uchar)'ÃŽ'*4+2]=0xFEA6;
+	AVCharMap[(uchar)'ÃŽ'*4+3]=0xFEA5;
 	
-	AVCharMap[(uchar)'Ï'*4]=0xFEA9;
-	AVCharMap[(uchar)'Ï'*4+1]=0xFEAA;
-	AVCharMap[(uchar)'Ï'*4+2]=0xFEAA;
-	AVCharMap[(uchar)'Ï'*4+3]=0xFEA9;
+	AVCharMap[(uchar)'Ã'*4]=0xFEA9;
+	AVCharMap[(uchar)'Ã'*4+1]=0xFEAA;
+	AVCharMap[(uchar)'Ã'*4+2]=0xFEAA;
+	AVCharMap[(uchar)'Ã'*4+3]=0xFEA9;
 	
-	AVCharMap[(uchar)'Ð'*4]=0xFEAB;
-	AVCharMap[(uchar)'Ð'*4+1]=0xFEAC;
-	AVCharMap[(uchar)'Ð'*4+2]=0xFEAC;
-	AVCharMap[(uchar)'Ð'*4+3]=0xFEAB;
+	AVCharMap[(uchar)'Ã'*4]=0xFEAB;
+	AVCharMap[(uchar)'Ã'*4+1]=0xFEAC;
+	AVCharMap[(uchar)'Ã'*4+2]=0xFEAC;
+	AVCharMap[(uchar)'Ã'*4+3]=0xFEAB;
 	
-	AVCharMap[(uchar)'Ñ'*4]=0xFEAD;
-	AVCharMap[(uchar)'Ñ'*4+1]=0xFEAE;
-	AVCharMap[(uchar)'Ñ'*4+2]=0xFEAE;
-	AVCharMap[(uchar)'Ñ'*4+3]=0xFEAD;
+	AVCharMap[(uchar)'Ã‘'*4]=0xFEAD;
+	AVCharMap[(uchar)'Ã‘'*4+1]=0xFEAE;
+	AVCharMap[(uchar)'Ã‘'*4+2]=0xFEAE;
+	AVCharMap[(uchar)'Ã‘'*4+3]=0xFEAD;
 	
-	AVCharMap[(uchar)'Ò'*4]=0xFEAF;
-	AVCharMap[(uchar)'Ò'*4+1]=0xFEB0;
-	AVCharMap[(uchar)'Ò'*4+2]=0xFEB0;
-	AVCharMap[(uchar)'Ò'*4+3]=0xFEAF;
+	AVCharMap[(uchar)'Ã’'*4]=0xFEAF;
+	AVCharMap[(uchar)'Ã’'*4+1]=0xFEB0;
+	AVCharMap[(uchar)'Ã’'*4+2]=0xFEB0;
+	AVCharMap[(uchar)'Ã’'*4+3]=0xFEAF;
 	
-	AVCharMap[(uchar)'Ž'*4]=0xFB8A;
-	AVCharMap[(uchar)'Ž'*4+1]=0xFB8B;
-	AVCharMap[(uchar)'Ž'*4+2]=0xFB8B;
-	AVCharMap[(uchar)'Ž'*4+3]=0xFB8A;
+	AVCharMap[(uchar)'Å½'*4]=0xFB8A;
+	AVCharMap[(uchar)'Å½'*4+1]=0xFB8B;
+	AVCharMap[(uchar)'Å½'*4+2]=0xFB8B;
+	AVCharMap[(uchar)'Å½'*4+3]=0xFB8A;
 	
-	AVCharMap[(uchar)'Ó'*4]=0xFEB3;
-	AVCharMap[(uchar)'Ó'*4+1]=0xFEB4;
-	AVCharMap[(uchar)'Ó'*4+2]=0xFEB2;
-	AVCharMap[(uchar)'Ó'*4+3]=0xFEB1;
+	AVCharMap[(uchar)'Ã“'*4]=0xFEB3;
+	AVCharMap[(uchar)'Ã“'*4+1]=0xFEB4;
+	AVCharMap[(uchar)'Ã“'*4+2]=0xFEB2;
+	AVCharMap[(uchar)'Ã“'*4+3]=0xFEB1;
 
-	AVCharMap[(uchar)'Ô'*4]=0xFEB7;
-	AVCharMap[(uchar)'Ô'*4+1]=0xFEB8;
-	AVCharMap[(uchar)'Ô'*4+2]=0xFEB6;
-	AVCharMap[(uchar)'Ô'*4+3]=0xFEB5;
+	AVCharMap[(uchar)'Ã”'*4]=0xFEB7;
+	AVCharMap[(uchar)'Ã”'*4+1]=0xFEB8;
+	AVCharMap[(uchar)'Ã”'*4+2]=0xFEB6;
+	AVCharMap[(uchar)'Ã”'*4+3]=0xFEB5;
 	
-	AVCharMap[(uchar)'Õ'*4]=0xFEBB;
-	AVCharMap[(uchar)'Õ'*4+1]=0xFEBC;
-	AVCharMap[(uchar)'Õ'*4+2]=0xFEBA;
-	AVCharMap[(uchar)'Õ'*4+3]=0xFEB9;
+	AVCharMap[(uchar)'Ã•'*4]=0xFEBB;
+	AVCharMap[(uchar)'Ã•'*4+1]=0xFEBC;
+	AVCharMap[(uchar)'Ã•'*4+2]=0xFEBA;
+	AVCharMap[(uchar)'Ã•'*4+3]=0xFEB9;
 	
-	AVCharMap[(uchar)'Ö'*4]=0xFEBF;
-	AVCharMap[(uchar)'Ö'*4+1]=0xFEC0;
-	AVCharMap[(uchar)'Ö'*4+2]=0xFEBE;
-	AVCharMap[(uchar)'Ö'*4+3]=0xFEBD;
+	AVCharMap[(uchar)'Ã–'*4]=0xFEBF;
+	AVCharMap[(uchar)'Ã–'*4+1]=0xFEC0;
+	AVCharMap[(uchar)'Ã–'*4+2]=0xFEBE;
+	AVCharMap[(uchar)'Ã–'*4+3]=0xFEBD;
 	
-	AVCharMap[(uchar)'Ø'*4]=0xFEC3;
-	AVCharMap[(uchar)'Ø'*4+1]=0xFEC4;
-	AVCharMap[(uchar)'Ø'*4+2]=0xFEC2;
-	AVCharMap[(uchar)'Ø'*4+3]=0xFEC1;
+	AVCharMap[(uchar)'Ã˜'*4]=0xFEC3;
+	AVCharMap[(uchar)'Ã˜'*4+1]=0xFEC4;
+	AVCharMap[(uchar)'Ã˜'*4+2]=0xFEC2;
+	AVCharMap[(uchar)'Ã˜'*4+3]=0xFEC1;
 	
-	AVCharMap[(uchar)'Ù'*4]=0xFEC7;
-	AVCharMap[(uchar)'Ù'*4+1]=0xFEC8;
-	AVCharMap[(uchar)'Ù'*4+2]=0xFEC6;
-	AVCharMap[(uchar)'Ù'*4+3]=0xFEC5;
+	AVCharMap[(uchar)'Ã™'*4]=0xFEC7;
+	AVCharMap[(uchar)'Ã™'*4+1]=0xFEC8;
+	AVCharMap[(uchar)'Ã™'*4+2]=0xFEC6;
+	AVCharMap[(uchar)'Ã™'*4+3]=0xFEC5;
 	
-	AVCharMap[(uchar)'Ú'*4]=0xFECB;
-	AVCharMap[(uchar)'Ú'*4+1]=0xFECC;
-	AVCharMap[(uchar)'Ú'*4+2]=0xFECA;
-	AVCharMap[(uchar)'Ú'*4+3]=0xFEC9;
+	AVCharMap[(uchar)'Ãš'*4]=0xFECB;
+	AVCharMap[(uchar)'Ãš'*4+1]=0xFECC;
+	AVCharMap[(uchar)'Ãš'*4+2]=0xFECA;
+	AVCharMap[(uchar)'Ãš'*4+3]=0xFEC9;
 	
-	AVCharMap[(uchar)'Û'*4]=0xFECF;
-	AVCharMap[(uchar)'Û'*4+1]=0xFED0;
-	AVCharMap[(uchar)'Û'*4+2]=0xFECE;
-	AVCharMap[(uchar)'Û'*4+3]=0xFECD;
+	AVCharMap[(uchar)'Ã›'*4]=0xFECF;
+	AVCharMap[(uchar)'Ã›'*4+1]=0xFED0;
+	AVCharMap[(uchar)'Ã›'*4+2]=0xFECE;
+	AVCharMap[(uchar)'Ã›'*4+3]=0xFECD;
 
-	AVCharMap[(uchar)'Ý'*4]=0xFED3;
-	AVCharMap[(uchar)'Ý'*4+1]=0xFED4;
-	AVCharMap[(uchar)'Ý'*4+2]=0xFED2;
-	AVCharMap[(uchar)'Ý'*4+3]=0xFED1;
+	AVCharMap[(uchar)'Ã'*4]=0xFED3;
+	AVCharMap[(uchar)'Ã'*4+1]=0xFED4;
+	AVCharMap[(uchar)'Ã'*4+2]=0xFED2;
+	AVCharMap[(uchar)'Ã'*4+3]=0xFED1;
 	
-	AVCharMap[(uchar)'Þ'*4]=0xFED7;
-	AVCharMap[(uchar)'Þ'*4+1]=0xFED8;
-	AVCharMap[(uchar)'Þ'*4+2]=0xFED6;
-	AVCharMap[(uchar)'Þ'*4+3]=0xFED5;
+	AVCharMap[(uchar)'Ãž'*4]=0xFED7;
+	AVCharMap[(uchar)'Ãž'*4+1]=0xFED8;
+	AVCharMap[(uchar)'Ãž'*4+2]=0xFED6;
+	AVCharMap[(uchar)'Ãž'*4+3]=0xFED5;
 	
-	AVCharMap[(uchar)'˜'*4]=0xFEDb;	
-	AVCharMap[(uchar)'˜'*4+1]=0xFEDC;	
-	AVCharMap[(uchar)'˜'*4+2]=0xFEDA;	
-	AVCharMap[(uchar)'˜'*4+3]=0xFED9;	
+	AVCharMap[(uchar)'Ëœ'*4]=0xFEDb;	
+	AVCharMap[(uchar)'Ëœ'*4+1]=0xFEDC;	
+	AVCharMap[(uchar)'Ëœ'*4+2]=0xFEDA;	
+	AVCharMap[(uchar)'Ëœ'*4+3]=0xFED9;	
 	
-	AVCharMap[(uchar)''*4]=0xFB94;
-	AVCharMap[(uchar)''*4+1]=0xFB95;
-	AVCharMap[(uchar)''*4+2]=0xFB93;
-	AVCharMap[(uchar)''*4+3]=0xFB92;
+	AVCharMap[(uchar)'Â'*4]=0xFB94;
+	AVCharMap[(uchar)'Â'*4+1]=0xFB95;
+	AVCharMap[(uchar)'Â'*4+2]=0xFB93;
+	AVCharMap[(uchar)'Â'*4+3]=0xFB92;
 	
-	AVCharMap[(uchar)'á'*4]=0xFEDF;
-	AVCharMap[(uchar)'á'*4+1]=0xFEE0;
-	AVCharMap[(uchar)'á'*4+2]=0xFEDE;
-	AVCharMap[(uchar)'á'*4+3]=0xFEDD;
+	AVCharMap[(uchar)'Ã¡'*4]=0xFEDF;
+	AVCharMap[(uchar)'Ã¡'*4+1]=0xFEE0;
+	AVCharMap[(uchar)'Ã¡'*4+2]=0xFEDE;
+	AVCharMap[(uchar)'Ã¡'*4+3]=0xFEDD;
 	
-	AVCharMap[(uchar)'ã'*4]=0xFEE3;
-	AVCharMap[(uchar)'ã'*4+1]=0xFEE4;
-	AVCharMap[(uchar)'ã'*4+2]=0xFEE2;
-	AVCharMap[(uchar)'ã'*4+3]=0xFEE1;
+	AVCharMap[(uchar)'Ã£'*4]=0xFEE3;
+	AVCharMap[(uchar)'Ã£'*4+1]=0xFEE4;
+	AVCharMap[(uchar)'Ã£'*4+2]=0xFEE2;
+	AVCharMap[(uchar)'Ã£'*4+3]=0xFEE1;
 	
-	AVCharMap[(uchar)'ä'*4]=0xFEE7;
-	AVCharMap[(uchar)'ä'*4+1]=0xFEE8;
-	AVCharMap[(uchar)'ä'*4+2]=0xFEE6;
-	AVCharMap[(uchar)'ä'*4+3]=0xFEE5;
+	AVCharMap[(uchar)'Ã¤'*4]=0xFEE7;
+	AVCharMap[(uchar)'Ã¤'*4+1]=0xFEE8;
+	AVCharMap[(uchar)'Ã¤'*4+2]=0xFEE6;
+	AVCharMap[(uchar)'Ã¤'*4+3]=0xFEE5;
 
-	AVCharMap[(uchar)'æ'*4]=0xFEED;
-	AVCharMap[(uchar)'æ'*4+1]=0xFEEE;
-	AVCharMap[(uchar)'æ'*4+2]=0xFEEE;
-	AVCharMap[(uchar)'æ'*4+3]=0xFEED;
+	AVCharMap[(uchar)'Ã¦'*4]=0xFEED;
+	AVCharMap[(uchar)'Ã¦'*4+1]=0xFEEE;
+	AVCharMap[(uchar)'Ã¦'*4+2]=0xFEEE;
+	AVCharMap[(uchar)'Ã¦'*4+3]=0xFEED;
 
-	AVCharMap[(uchar)'å'*4]=0xFEEB;
-	AVCharMap[(uchar)'å'*4+1]=0xFEEC;
-	AVCharMap[(uchar)'å'*4+2]=0xFEEA;
-	AVCharMap[(uchar)'å'*4+3]=0xFEE9;
+	AVCharMap[(uchar)'Ã¥'*4]=0xFEEB;
+	AVCharMap[(uchar)'Ã¥'*4+1]=0xFEEC;
+	AVCharMap[(uchar)'Ã¥'*4+2]=0xFEEA;
+	AVCharMap[(uchar)'Ã¥'*4+3]=0xFEE9;
 
 
 	/*AVCharMap[(uchar)'?'*4]=0xFEF3;
@@ -329,15 +343,15 @@ void	initial()
 	AVCharMap[(uchar)'?'*4+2]=0xFEF2;
 	AVCharMap[(uchar)'?'*4+3]=0xFEF1;*/
 	
-	AVCharMap[(uchar)'í'*4]=0xFEF3;
-	AVCharMap[(uchar)'í'*4+1]=0xFEF4;
-	AVCharMap[(uchar)'í'*4+2]=0xFEF2;
-	AVCharMap[(uchar)'í'*4+3]=0xFEF1;
+	AVCharMap[(uchar)'Ã­'*4]=0xFEF3;
+	AVCharMap[(uchar)'Ã­'*4+1]=0xFEF4;
+	AVCharMap[(uchar)'Ã­'*4+2]=0xFEF2;
+	AVCharMap[(uchar)'Ã­'*4+3]=0xFEF1;
 
-	AVCharMap[(uchar)'Æ'*4]=0xFE8B;
-	AVCharMap[(uchar)'Æ'*4+1]=0xFE8C;
-	AVCharMap[(uchar)'Æ'*4+2]=0xFE8A;
-	AVCharMap[(uchar)'Æ'*4+3]=0xFE89;
+	AVCharMap[(uchar)'Ã†'*4]=0xFE8B;
+	AVCharMap[(uchar)'Ã†'*4+1]=0xFE8C;
+	AVCharMap[(uchar)'Ã†'*4+2]=0xFE8A;
+	AVCharMap[(uchar)'Ã†'*4+3]=0xFE89;
 
 	AVCharMap[(uchar)'0'*4]=0x660;
 	AVCharMap[(uchar)'1'*4]=0x661;
@@ -349,7 +363,7 @@ void	initial()
 	AVCharMap[(uchar)'7'*4]=0x667;
 	AVCharMap[(uchar)'8'*4]=0x668;
 	AVCharMap[(uchar)'9'*4]=0x669;
-	AVCharMap[(uchar)'¿'*4]=0x61F;
+	AVCharMap[(uchar)'Â¿'*4]=0x61F;
 
 }
 void	swap_int(int* str, int i, int j){
@@ -382,7 +396,7 @@ void	reverse(int* src, int length)
 }
 __inline	unsigned char  SingleShape(int Current)
 {
-	return (Current==(char)'æ')||(Current==(char)'Ò')||(Current==(char)'Ñ')||(Current==(char)'Ž')||(Current==(char)'Ï')||(Current==(char)'Ð');
+	return (Current==(char)'Ã¦')||(Current==(char)'Ã’')||(Current==(char)'Ã‘')||(Current==(char)'Å½')||(Current==(char)'Ã')||(Current==(char)'Ã');
 }
 
 __inline	unsigned char IS_NUMBER(int Current) 
@@ -424,17 +438,17 @@ __inline unsigned char IS_SYMBOL(int Current)
 	(Current==(char)'|')||
 	(Current==(char)':')||
 	(Current==(char)'"')||
-	(Current==(char)'¿')||
+	(Current==(char)'Â¿')||
 	(Current==(char)'*')||
 	(Current>0&&Current<32)
 	);
 }
 
 /*
-0 ÈÜ
-1 ÜÈÜ 
-2 Ü˜
-3 ˜
+0 ÃˆÃœ
+1 ÃœÃˆÃœ 
+2 ÃœËœ
+3 Ëœ
 */
 int		CharPosition(char Current,char Left,char Right)
 {
@@ -451,8 +465,8 @@ int		CharPosition(char Current,char Left,char Right)
 	LeftLatin=IS_LATIN(Left);
 	CurrentIsLatin=IS_LATIN(Current) ;
 	CurrentIsSymbols=IS_SYMBOL(Current) ;
-	AfterTheseFinish=LeftLatin || (Right==(char)'Â') || (Right==(char)'Ç') || SingleShape(Right);
-	AfterTheseStartFirst=(RightLatin)||(RightSymbol)||(Right==(char)'Â')||(Right==(char)'Ç')||SingleShape(Right);
+	AfterTheseFinish=LeftLatin || (Right==(char)'Ã‚') || (Right==(char)'Ã‡') || SingleShape(Right);
+	AfterTheseStartFirst=(RightLatin)||(RightSymbol)||(Right==(char)'Ã‚')||(Right==(char)'Ã‡')||SingleShape(Right);
 
 	C1=(Left!=NUL)&&(Left!=SPACECHAR);//Not Finisher Char
 	C2=(Left==NUL)||(Left==SPACECHAR);//to be Finisher Char
@@ -464,13 +478,13 @@ int		CharPosition(char Current,char Left,char Right)
 		//printf("im here1\n");
 		return	0;
 	}
-	if(C1 && C3)//ÈÜ
+	if(C1 && C3)//ÃˆÃœ
 	{
 		//printf("im here2\n");		
 		return 0;
-	}else	if(C1 && C4)//ÜÈÜ
+	}else	if(C1 && C4)//ÃœÃˆÃœ
 	{
-		if(AfterTheseStartFirst)//æÈÜ ÇÈÜ
+		if(AfterTheseStartFirst)//Ã¦ÃˆÃœ Ã‡ÃˆÃœ
 		{
 			//printf("im here3\n");
 			if (LeftSymbol)
@@ -488,14 +502,14 @@ int		CharPosition(char Current,char Left,char Right)
 			return	3;
 		}
 		return	1;
-	}else	if(C2 && C4)//ÜÈ
+	}else	if(C2 && C4)//ÃœÃˆ
 	{
-		if (AfterTheseFinish)//æå
+		if (AfterTheseFinish)//Ã¦Ã¥
 		{
 			return	3;
 		}
 		return	2;
-	}else	if (C2&&C3)//å
+	}else	if (C2&&C3)//Ã¥
 	{
 		return	3;
 	}
